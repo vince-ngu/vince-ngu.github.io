@@ -23,7 +23,7 @@ email: vince.nguyenle@gmail.com
 description: My personal portfolio and blog! UC Berkeley graduate, aspiring software engineer, and open source enthusiast.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://vincengu.com" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin: https://www.linkedin.com/in/vince-ngu/
+linkedin_username: vince-ngu
 github_username:  vince-ngu
 
 # Build settings
