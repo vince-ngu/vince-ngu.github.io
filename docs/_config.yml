@@ -20,11 +20,10 @@
 
 title: Vince Nguyen
 email: vince.nguyenle@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My personal portfolio and blog! Currently tracking my projects and journey in tech!
+description: My personal portfolio and blog! UC Berkeley graduate, aspiring software engineer, and open source enthusiast.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://vincengu.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+linkedin: https://www.linkedin.com/in/vince-ngu/
 github_username:  vince-ngu
 
 # Build settings
