@@ -1,14 +1,15 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My name is Vince Nguyen and I'm a recent UC Berkeley graduate (Spring 2024) that majored in Environmental Economics and Policy. If you're reading this, you must be wondering
+why I'm trying to break into the tech industry! Well, it wasn't until late in my college career that I found a love and passion for problem solving after taking the infamous
+61A: Structure and Interpretation of Computer Programs class. I truly enjoyed how they forced us to think outside the box, in a way that made you go "wow, this makes no sense
+and complete sense at the same time."
 
 You can find the source code for Jekyll at GitHub:
 [jekyll][jekyll-organization] /
