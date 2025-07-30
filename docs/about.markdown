@@ -4,6 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
+![Vince Nguyen](/assets/pfp.png)
+
 Hi there!
 
 My name is Vince Nguyen and I'm a recent UC Berkeley graduate (Spring 2024) that majored in Environmental Economics and Policy. If you're reading this, you must be wondering, 
