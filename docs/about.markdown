@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Vince Nguyen](/assets/pfp.png)
+![Vince Nguyen]({{ "/assets/pfp.png" | relative_url }})
 
 Hi there!
 
