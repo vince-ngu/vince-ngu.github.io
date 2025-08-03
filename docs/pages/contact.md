@@ -6,4 +6,4 @@ permalink: /contact
 
 # Contact
 
-You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
+Feel free to contact me [through my email](mailto:vince.nguyenle@gmail.com) or reach out to me on my [LinkedIn](https://www.linkedin.com/in/vince-ngu/) if you have any questions or would like to discuss anything!
