@@ -2,8 +2,9 @@
 layout: post
 title:  "Introduction"
 date:   2025-08-01 12:30:00
-categories: jekyll update
 ---
+
+# Introduction
 
 Hi there!
 
@@ -16,9 +17,9 @@ Quite frankly, I didn't know what I was doing when I first entered university. I
 
 I found myself interning at a Y Combinator startup, Sonnet AI, the following summer and learned everything that the startup space had to offer. The incredible people I've met and worked with left an unfathomable impact on me and what I wanted to do. Coding seemed like their native language and I was just a baby learning how to speak. Despite this, I loved the fast-paced environment and the standup meetings that kept us on track. I enjoyed learning and seeing my work have a direct impact on the product as soon as it was pushed to production. Though I was writing what seemed to be an insignificant part of the product, I felt like I was contributing towards something bigger than myself, something that would help society progress in the right direction. Though I may be romanticizing, that summer left me with something that hasn't been diminished: passion and drive.
 
-Although I'm still at a disadvantage starting so late in my career (no CS degree), I'm still taking a chance on myself. To enter the tech industry would be a long shot but I believe that I have what it takes to make it. Berkeley was my reach school afterall and look where I ended up. I'm driven and excited to see how my journey will prgoress in the forthcoming months. This website and log are something I'm going to use to track my personal projects and growth. There's a quote that I've resonated with this year that I've truly taken to heart in everything I do. It's a constant reminder that I need to be patient.
+Although I'm still at a disadvantage starting so late in my career (no CS degree), I'm still taking a chance on myself. To enter the tech industry would be a long shot but I believe that I have what it takes to make it. Berkeley was my reach school afterall and look where I ended up. I'm driven and excited to see how my journey will prgoress in the forthcoming months. This website and log are something I'm going to use to track my personal projects and growth. There's a quote by Fabienne Fredrickson that I've resonated with this year that I've truly taken to heart in everything I do. It's a constant reminder that I need to be patient.
 
-"The day you plant the seed is not the day you eat the fruit." -Fabienne Fredrickson
+> "The day you plant the seed is not the day you eat the fruit."
 
 See you at the end of the tunnel. Go Bears! C:
 
