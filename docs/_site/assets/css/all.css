@@ -76,7 +76,7 @@ sub {
   bottom: -0.25em;
 }
 
-img + em {
+img {
   border: 0;
 }
 
