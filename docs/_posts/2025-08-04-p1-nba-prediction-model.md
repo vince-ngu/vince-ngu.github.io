@@ -1,6 +1,5 @@
 ---
 layout: post
-title: "Project 1: NBA Betting Model"
 author: Vince Nguyen
 date: 2025-08-04
 ---
