@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal portfolio powered by Jekyll and GitHub Pages ">
+    <meta rel="author" href="https://plus.google.com/u/0/#">
+    <meta rel="publisher" href="https://plus.google.com/u/0/#">
+    <title>
+      
+        Project 1: NBA Betting Model | Vince Nguyen
+      
+    </title>
+    <link rel="stylesheet" href="/assets/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- Use Atom -->
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Vince Nguyen" />
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-112060364-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+    <!-- Use Jekyll SEO plugin -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Project 1: NBA Betting Model | Vince Nguyen</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Project 1: NBA Betting Model" />
+<meta name="author" content="Vince Nguyen" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="About" />
+<meta property="og:description" content="About" />
+<link rel="canonical" href="http://localhost:4000/p1-nba-prediction-model" />
+<meta property="og:url" content="http://localhost:4000/p1-nba-prediction-model" />
+<meta property="og:site_name" content="Vince Nguyen" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-04T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Project 1: NBA Betting Model" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Vince Nguyen"},"dateModified":"2025-08-04T00:00:00-07:00","datePublished":"2025-08-04T00:00:00-07:00","description":"About","headline":"Project 1: NBA Betting Model","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/p1-nba-prediction-model"},"url":"http://localhost:4000/p1-nba-prediction-model"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <div class="site-container">
+      <header>
+  <div class="logo">
+    <a href="/">Vince Nguyen</a>
+  </div>
+  <nav>
+    
+      <a href="/">Projects</a>
+    
+      <a href="/blog">Blog</a>
+    
+      <a href="/about">About</a>
+    
+      <a href="/contact">Contact</a>
+    
+  </nav>
+</header>
+
+      <section>
+  <div class="post-container">
+    <h4 class="project-title">Project 1: NBA Betting Model</h4>
+    <div class="project-load"><h2 id="about">About</h2>
+
+<p>Ever since I was a kid, basketball has been ingrained into my life in some way, shape, or form. From shooting in the backyard with a deflated ball and a hoop I begged my parents to buy off Craigslist in 5th grade to buying last-minute nosebleed seats ($25!) to see Curry face off against LeBron in college, basketball has always been important to me. Despite this, there was one thing that I wasn’t involved in that took the sports world by storm in 2018 after the Professional and Amateur Sports Protection Act (PASPA) was foregone by the Supreme Court: sports betting.</p>
+
+<p>“Look at this parlay I just made,” my friends would tell me as they showed me a list of what seemed to be, in my mind, some <em>terrible</em> sports takes on their phone. Jayson Tatum scoring more than 25.5 against the No.1 Defensive Rating team in the NBA? Give me a break. Brooke Lopez grabbing over 6 boards against a team full of bigs? Sorry Brooke, you’re not really the center you used to be. All these parlays being build around “feasible” numbers and predictions based on “hunches” lead me to a lingering question: can’t you reliably predict these plays based on the statistics? The NBA is extremely meticulous when keeping track of stats for players, so much so that some of the statistics are frustratingly obscure. You’ll see on screen things like “Only Player to Score 30+ Points While Coming Off an Ankle Sprain After 3 Weeks” (Okay, it’s not <em>that</em> bad but you get the picture).</p>
+
+<p>Come post-grad, I’m furiously applying for jobs in the tech market. I landed an interview for an internship at a startup that focuses on beating the market when it comes to sports betting. Without going too much into detail, they use their proprietery models to predict which bets were worth taking and which were too risky to build your parlay around. While I made it to the final round, my journey decided that I was to take another route (I was rejected). Slightly down, yet inspired, I decided to take my own step towards something similar with this personal project. I was going to build my own rudimentary sports betting model to help me beat the market.</p>
+
+<h2 id="my-toolbox">My Toolbox</h2>
+
+<p>It’s no doubt that I need to have the correct tools to help me complete the project. More as to how I used the tools later in the post, but I’ve initially decided on using <strong>Python</strong> with <strong>pandas</strong> to help me manipulate datasets from the <strong>NBA API</strong>. I’m also using <strong>Scikit-learn</strong> (sklearn) to help calculate my multiple linear regression.</p>
+
+<h2 id="finding-the-correct-model">Finding the Correct Model</h2>
+
+<p>It’s been a few years since I’ve taken my undergraduate introductory statistics and probabilities course, so I decided to go back and read up on simpler models that I could intially use to get my feet off the ground. I remember using Simple and Mulitple Linear Regressions in my statistics course and did more review there. It seemed easy enough, right?</p>
+
+<p>My initial plan was to find a dependent variable (Y), like the amount of points predicted to score, based off an independent variable (X), like a player’s average Points Per Game (PPG) against the team they’re supposed to play against. A textbook Simple Linear Regression. It wasn’t until I was cleaning data when I realized that a team <em>only</em> plays against another team 2-4 times <strong>per season</strong>. That’s not nearly enough data to accurately create a model that predicts a player’s PPG. Quite frankly, that felt like I didn’t have any data at all. Furthermore, I took a step back and realized that there were way more variables I had to take into account for my model to be <em>remotely</em> accurate. Things like their Field Gold Percentage (FGP), Minutes Per Game (MPG), if they were previously injured, their current scoring streak (Have they been on a hot streak within the past 5 games?), rest days, home or away, etc. These different considerations lead me to realize that I need to move to a Multiple Linear Regression Model so that I can use multiple independent variables to find my dependent variable. Below is my initial and current code to</p>
+</div>
+  </div>
+  
+</section>
+
+      <footer>
+  <div class="footer-wrap">
+    <div class="footer-tagline">
+      <p></p>
+    </div>
+    <div class="social-media">
+      <nav>
+        
+          <a href="https://github.com/vince-ngu" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        
+          <a href="https://www.linkedin.com/in/vince-ngu/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        
+          <a href="mailto:mailto:vince.nguyenle@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        
+      </nav>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </body>
+</html>
